@@ -1,12 +1,12 @@
 body {
     background: hsl(216, 58%, 91%);
     color: #575F7D;
-    font-family: 'Comic Sans Serif', sans-serif;
+    font-family: 'Cantata One', serif;
     font-size: 14px;
-    font-weight: lighter;
+    font-weight: 350;
   }
   h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cantata One', serif;
   }
   h1 {
     color: #575F7D;
@@ -15,36 +15,43 @@ body {
   }
   h2 {
     color: #7ECE90;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: lighter;
     font-weight: 500;
   }
   a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cantata One', serif;
     text-decoration: none;
     color: #6B72E1;
-    font-weight: 600;
-    font-size: 16px;
   }
   a:hover {
     color: black;
+    font-weight: 700;
   }
   ul:not(.ul_bullets) {
     list-style-type: none;
+    font-size: 16px;
     padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
   }
   ul.ul_bullets {
     list-style-type: "\1F44D";
     padding-left: 60px;
     color: rgb(131, 18, 18);
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: 500;
   }
-  li:not(.ul_bullets) {
+  ul:not(.ul_bullets) li {
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px
   }
-  
+  ul.ul_bullets li {
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 10px
+  }
   li:before:not(.ul_bullets) {
     position: absolute;
     top: 0;
@@ -58,12 +65,12 @@ body {
   }
   .centered_divs {
     background: white;                         /* White background */
-    padding: 20px;                             /* Internal space */
+    padding: 10px;                             /* Internal space */
     border-radius: 4px;                        /* Small radius */
     box-shadow: 0 10px 30px rgba(0,0,0,.1);
     width: 400px;        /* Set the width */
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .img-circle {
     border-radius: 50%;
@@ -84,4 +91,6 @@ body {
   }
   .btn-menu {
     text-align: right !important;
+    font-weight: 350;
+    font-size: 14px;
   }
