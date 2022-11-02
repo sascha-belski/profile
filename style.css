@@ -1,6 +1,6 @@
 body {
     background: hsl(216, 58%, 91%);
-    color: #575F7D;
+    color: #363d55;
     font-family: 'Cantata One', serif;
     font-size: 14px;
     font-weight: 350;
@@ -9,7 +9,7 @@ body {
     font-family: 'Cantata One', serif;
   }
   h1 {
-    color: #575F7D;
+    color: #363d55;
     font-size: 24px;
     font-weight: 900;
   }
@@ -22,7 +22,7 @@ body {
   a {
     font-family: 'Cantata One', serif;
     text-decoration: none;
-    color: #6B72E1;
+    color: #4e53a1;
   }
   a:hover {
     color: black;
@@ -38,7 +38,7 @@ body {
   ul.ul_bullets {
     list-style-type: "\1F44D";
     padding-left: 60px;
-    color: rgb(131, 18, 18);
+    color: #272d41;
     font-size: 16px;
     font-weight: 500;
   }
@@ -85,13 +85,13 @@ body {
   .title_div {
     text-align: center;
   }
-  .btn-blue {
+  .btn-green {
     background-color: #58c7b8;
     color: white;
     padding: 5px 10px;
     border-radius: 8px;
   }
-  .btn-blue:hover {
+  .btn-green:hover {
     background-color: black;
     color: white;
   }
