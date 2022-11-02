@@ -64,17 +64,23 @@ body {
     margin-right: 10px;
   }
   .centered_divs {
-    background: white;                         /* White background */
-    padding: 10px;                             /* Internal space */
+    background: white;
+    width: 800px;                             /* Set the width */
+    padding: 10px;                            /* Internal space */
     border-radius: 4px;                        /* Small radius */
     box-shadow: 0 10px 30px rgba(0,0,0,.1);
-    width: 400px;        /* Set the width */
     margin: 0 auto;
     margin-bottom: 10px;
+  }
+  .inner_div {
+    padding: 2px; 
+    width: 430px;
+    margin: 0 auto;
   }
   .img-circle {
     border-radius: 50%;
     width: 120px;
+    text-align: left;
   }
   .title_div {
     text-align: center;
@@ -93,4 +99,54 @@ body {
     text-align: right !important;
     font-weight: 350;
     font-size: 14px;
+  }
+  /* responsiveness */
+  @media (max-width: 900px) {
+    /* For a screen < 960px, this CSS will be read */
+    .centered_divs  {
+      width: 550px  !important;
+    }
+    .inner_div {
+      width: 390px !important;
+    } 
+  }
+  
+  @media (max-width: 700px) {
+    /* For a screen < 720px, this CSS will be read */
+    .centered_divs {
+      width: 450px  !important;
+    }
+    .inner_div {
+      width: 350px !important;
+    } 
+  }
+
+  @media (max-width: 550px) {
+    /* For a screen < 720px, this CSS will be read */
+    .centered_divs {
+      width: 350px  !important;
+    }
+    .inner_div {
+      width: 300px !important;
+    } 
+  }
+  
+  @media (max-width: 450px) {
+    /* For a screen < 540px, this CSS will be read */
+    .centered_divs {
+      width: 300px  !important;
+    }
+    .inner_div {
+      width: 270px !important;
+    } 
+  }
+
+  @media (max-width: 350px) {
+    /* For a screen < 540px, this CSS will be read */
+    .centered_divs {
+      width: 250px  !important;
+    }
+    .inner_div {
+      width: 230px !important;
+    } 
   }
